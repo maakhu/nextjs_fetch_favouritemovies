@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head />
 
-      <body className={`${montserrat.className} mx-32`}>
+      <body className={`${montserrat.className} mx-32 my-12`}>
         {children}
       </body>
     </html>

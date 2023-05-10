@@ -1,7 +1,6 @@
 import Movie from "./movie";
 
 export default async function Home() {
-  // 'https://api.themoviedb.org/3/movie/popular?api_key=<<56d8e91f91ec674c299f9542332fc7e0>>&language=en-US&page=1'
   const data = await fetch(
     `https://api.themoviedb.org/3/list/8252655?api_key=${process.env.API_KEY}&language=en-US&page=1}`
   );
